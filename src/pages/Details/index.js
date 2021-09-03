@@ -40,7 +40,7 @@ const Details = () => {
     };
 
     getDetails();
-  }, []);
+  }, [id]);
 
   if (loading) {
     return (
